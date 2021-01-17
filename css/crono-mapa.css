@@ -1,0 +1,21 @@
+.mapa-container{
+    width: var(--wimg);
+}
+
+.mapa-container:hover .mapa-control{
+    opacity: 100% ;
+}
+.mapa-stack{
+    margin-left: var(--ctl);
+    transition: margin 1s ease-in-out;
+}
+.mapa-control{
+    bottom: 3%;
+    left: 3%;
+    opacity: 50%;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.mapa-stack img{
+    width: var(--wimg);
+}

@@ -110,31 +110,6 @@ a,a:hover{
     opacity: 0;
 }
 
-#inscribete{
-    position: relative;
-    overflow: hidden;
-    padding: 0;
-}
-
-#inscribete img{
-    height: 275px;
-    object-fit: cover;
-    transition: transform 0.8s ease-in-out;
-}
-
-#inscribete img:hover{
-    transform: scale(1.3);
-}
-
-#inscribete span{
-    padding-top: 5px;
-    padding-bottom: 5px;
-    font-size: 18px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-}
-
 @media (max-width: 577px) {
     .carousel-caption h5{
         font-size: 14px;

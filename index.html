@@ -22,6 +22,9 @@
     <!-- Imagen Comparison -->
     <link rel="stylesheet" href="css/img-comparison.css">
 
+    <!-- <Crono mapa> -->
+    <link rel="stylesheet" href="css/crono-mapa.css">
+
     <!-- style -->
     <link rel="stylesheet" href="css/style.css" />
 
@@ -79,9 +82,7 @@
                 <div class="col-12 col-lg-9 d-flex align-items-lg-center">
                     <p class="text-justify mb-3">
                         La Facultad de Estudios Superiores Arag&oacute;n se ha consolidado como el centro universitario m&aacute;s importante de la regi&oacute;n nororiente del &aacute;rea metropolitana de la Ciudad de M&eacute;xico. Producto de la labor responsable y el compromiso constante de nuestra comunidad, la calidad del trabajo acad&eacute;mico ha mantenido su nivel de excelencia a trav&eacute;s del fomento de la investigaci&oacute;n cient&iacute;fica, tecnol&oacute;gica, social y human&iacute;stica en beneficio de la naci&oacute;n.
-
                     </p>
-
                 </div>
                 <div class="col-12 col-lg-10">
                     <p class="text-justify mb-3">
@@ -108,14 +109,38 @@
                 <div class="col-lg-10 col-12">
                     <span class="text-center ml-2">Video de presentaci&#243;n:</span>
                 </div>
-                <div class="col-12 col-lg-5">
+                <div class="col-12 col-xl-4 col-lg-5">
                     <iframe class="mx-auto d-block mt-2" id="video-principal" width="560" height="315"
                         src="https://www.youtube.com/embed/aGBRGE9UkYQ" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>
                 </div>
-                <div class="col-12 col-lg-5 ">
-
+                <div class="col-12 col-xl-6 col-lg-5 mt-4 mt-lg-0">
+                    <div id="mapa-1" class="position-relative mapa-container mx-auto">
+                        <div class="overflow-hidden shadow rounded">
+                            <div class="d-flex mapa-stack">
+                                <a target="_blank" href="./img/mapas/1975-1977.png"><img src="./img/mapas/1975-1977.png" date="1975-1977" alt=""></a>
+                                <a target="_blank" href="./img/mapas/1978-1986.png"><img src="./img/mapas/1978-1986.png" date="1978-1986" alt=""></a>
+                                <a target="_blank" href="./img/mapas/1986-1990.png"><img src="./img/mapas/1986-1990.png" date="1986-1990" alt=""></a>
+                                <a target="_blank" href="./img/mapas/1990-1998.png"><img src="./img/mapas/1990-1998.png" date="1990-1998" alt=""></a>
+                                <a target="_blank" href="./img/mapas/1998-2001.png"><img src="./img/mapas/1998-2001.png" date="1998-2001" alt=""></a>
+                                <a target="_blank" href="./img/mapas/2001-2009.png"><img src="./img/mapas/2001-2009.png" date="2001-2009" alt=""></a>
+                                <a target="_blank" href="./img/mapas/2009-2016.png"><img src="./img/mapas/2009-2016.png" date="2009-2016" alt=""></a>
+                                <a target="_blank" href="./img/mapas/2016-2021.png"><img src="./img/mapas/2016-2021.png" date="2016-2021" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="btn-group dropup mapa-control position-absolute">
+                            <button type="button" style="cursor: pointer;" onclick="next()" class="btn btn-secondary">
+                              Siguiente
+                            </button>
+                            <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              <span class="sr-only">Toggle Dropdown</span>
+                            </button>
+                            <div class="dropdown-menu">
+                                <ul class="list-group list-group-flush"></ul>
+                            </div>
+                          </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -140,6 +165,9 @@
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
     </script>
     <script src="js/bootstrap.bundle.js"></script>
+    
+    <!-- <Crono mapa> -->
+    <script src="js/crono-mapa.js"></script>
 
     <script src="js/index.js"></script>
     
