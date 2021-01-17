@@ -1,7 +1,7 @@
 const stack = document.querySelectorAll("#mapa-1 .mapa-stack img");
 const controlContainer = document.querySelector("#mapa-1 .mapa-control .dropdown-menu ul");
 const responsive = [
-    {breakPoint:{   width:0,    wImg:320}},
+    {breakPoint:{   width:0,    wImg:336}},
     {breakPoint:{   width:576,  wImg:480}},
     {breakPoint:{   width:768,  wImg:550}}, 
     {breakPoint:{   width:992,  wImg:350}},
