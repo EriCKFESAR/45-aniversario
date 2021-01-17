@@ -135,6 +135,16 @@ a,a:hover{
     left: 0;
 }
 
+@media (max-width: 577px) {
+    .carousel-caption h5{
+        font-size: 14px;
+    }
+    .carousel-item img{
+        height: 400px;
+        object-fit: cover;
+    }
+}
+
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
     #icono-principal{
