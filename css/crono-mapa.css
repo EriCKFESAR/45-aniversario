@@ -1,21 +1,19 @@
-.mapa-container{
+.map-container{
     width: var(--wimg);
 }
-
-.mapa-container:hover .mapa-control{
+.map-container:hover .map-control{
     opacity: 100% ;
 }
-.mapa-stack{
+.map-stack{
     margin-left: var(--ctl);
     transition: margin 1s ease-in-out;
 }
-.mapa-control{
+.map-control{
     bottom: 3%;
     left: 3%;
     opacity: 50%;
     transition: opacity 0.3s ease-in-out;
 }
-
-.mapa-stack img{
+.map-stack img{
     width: var(--wimg);
 }
